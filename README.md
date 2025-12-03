@@ -13,7 +13,7 @@
    minimal styling using CSS modules
    limited testing - didn't have time to write complex tests, so I kept it very simple
 
-4. What I would improve with more time
+4. What I would improve with more time:
    I would put search info in a seperate component so it can be reused in agenda, and also for clarity - it wont be in the sessions list.
    add a navigation bar for agenda, session details.
    add a back button in sesseion deails - to return to all sessions
