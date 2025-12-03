@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import SessionInfo from "../components/Shared/SessionInfo";
+import SessionInfo from "../components/shared/SessionInfo";
 import { getSessions } from "../lib/sessions";
 import "@testing-library/jest-dom";
 

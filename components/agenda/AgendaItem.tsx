@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { AgendaSession } from "../../types/agenda";
 import styles from "../../styles/shared/Card.module.css";
-import SessionInfo from "../Shared/SessionInfo";
+import SessionInfo from "../shared/SessionInfo";
 
 interface Props {
   session: AgendaSession;

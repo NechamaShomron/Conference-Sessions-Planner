@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import SessionInfo from "../Shared/SessionInfo";
+import SessionInfo from "../shared/SessionInfo";
 import { getSessions } from "../../lib/sessions";
 import { timeRanges, isInTimeRange } from "../../lib/formatTime";
 import Link from "next/link";
