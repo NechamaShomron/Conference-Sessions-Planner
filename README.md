@@ -15,6 +15,7 @@
 
 4. What I would improve with more time:
    I would put search info in a seperate component so it can be reused in agenda, and also for clarity - it wont be in the sessions list.
+   I would have the route /sessions -> navigate to / o show our home page of all sessions
    add a navigation bar for agenda, session details.
    add a back button in sesseion deails - to return to all sessions
    add a proper backend - to fetch sessions dynamically
