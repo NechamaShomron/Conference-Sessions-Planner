@@ -1,0 +1,202 @@
+[
+  {
+    "id": "s1",
+    "title": "Modern React Patterns",
+    "speaker": "Danielle Cohen",
+    "track": "Frontend",
+    "startTime": "2025-05-20T08:00:00Z",
+    "endTime": "2025-05-20T08:45:00Z",
+    "room": "Hall A",
+    "description": "Learn advanced patterns for building scalable React applications."
+  },
+  {
+    "id": "s4",
+    "title": "Node.js Performance Tuning",
+    "speaker": "David Katz",
+    "track": "Backend",
+    "startTime": "2025-05-20T08:30:00Z",
+    "endTime": "2025-05-20T09:15:00Z",
+    "room": "Hall B",
+    "description": "Optimize Node.js backend applications for speed and scalability."
+  },
+  {
+    "id": "s2",
+    "title": "TypeScript Deep Dive",
+    "speaker": "Eli Schwartz",
+    "track": "Frontend",
+    "startTime": "2025-05-20T10:00:00Z",
+    "endTime": "2025-05-20T10:45:00Z",
+    "room": "Hall A",
+    "description": "Master TypeScript types and best practices for frontend apps."
+  },
+  {
+    "id": "s3",
+    "title": "State Management with Redux",
+    "speaker": "Clara Ben-David",
+    "track": "Frontend",
+    "startTime": "2025-05-20T10:30:00Z",
+    "endTime": "2025-05-20T11:15:00Z",
+    "room": "Hall A",
+    "description": "Manage complex app state efficiently with Redux."
+  },
+  {
+    "id": "s5",
+    "title": "Building REST APIs with Express",
+    "speaker": "Ella Shapiro",
+    "track": "Backend",
+    "startTime": "2025-05-20T14:00:00Z",
+    "endTime": "2025-05-20T14:45:00Z",
+    "room": "Hall B",
+    "description": "Learn to design robust REST APIs using Express.js."
+  },
+  {
+    "id": "s6",
+    "title": "GraphQL for Beginners",
+    "speaker": "Frank Levi",
+    "track": "Backend",
+    "startTime": "2025-05-20T14:30:00Z",
+    "endTime": "2025-05-20T15:15:00Z",
+    "room": "Hall B",
+    "description": "Introduction to GraphQL APIs and how to implement them."
+  },
+  {
+    "id": "s7",
+    "title": "CI/CD Essentials",
+    "speaker": "Grace Cohen",
+    "track": "DevOps",
+    "startTime": "2025-05-21T08:00:00Z",
+    "endTime": "2025-05-21T08:45:00Z",
+    "room": "Hall C",
+    "description": "Implement continuous integration and delivery pipelines."
+  },
+  {
+    "id": "s8",
+    "title": "Docker for Developers",
+    "speaker": "Henry Kaplan",
+    "track": "DevOps",
+    "startTime": "2025-05-21T08:30:00Z",
+    "endTime": "2025-05-21T09:15:00Z",
+    "room": "Hall C",
+    "description": "Learn Docker containers and workflows for development."
+  },
+  {
+    "id": "s9",
+    "title": "Kubernetes Basics",
+    "speaker": "Irene Levy",
+    "track": "DevOps",
+    "startTime": "2025-05-21T17:00:00Z",
+    "endTime": "2025-05-21T17:45:00Z",
+    "room": "Hall C",
+    "description": "Get started with container orchestration using Kubernetes."
+  },
+  {
+    "id": "s10",
+    "title": "Advanced Kubernetes",
+    "speaker": "Jack Mandel",
+    "track": "DevOps",
+    "startTime": "2025-05-21T17:30:00Z",
+    "endTime": "2025-05-21T18:15:00Z",
+    "room": "Hall C",
+    "description": "Learn advanced concepts and best practices for Kubernetes clusters."
+  },
+  {
+    "id": "s11",
+    "title": "Intro to AI",
+    "speaker": "Karen Shalom",
+    "track": "AI",
+    "startTime": "2025-05-22T07:30:00Z",
+    "endTime": "2025-05-22T08:15:00Z",
+    "room": "Hall D",
+    "description": "Overview of AI concepts and practical applications."
+  },
+  {
+    "id": "s12",
+    "title": "Machine Learning Basics",
+    "speaker": "Leo Feldman",
+    "track": "AI",
+    "startTime": "2025-05-22T07:50:00Z",
+    "endTime": "2025-05-22T08:35:00Z",
+    "room": "Hall D",
+    "description": "Introduction to machine learning models and workflows."
+  },
+  {
+    "id": "s13",
+    "title": "Deep Learning with Python",
+    "speaker": "Maria Levi",
+    "track": "AI",
+    "startTime": "2025-05-22T18:30:00Z",
+    "endTime": "2025-05-22T19:15:00Z",
+    "room": "Hall D",
+    "description": "Train neural networks using Python libraries."
+  },
+  {
+    "id": "s14",
+    "title": "Natural Language Processing",
+    "speaker": "Nathan Cohen",
+    "track": "AI",
+    "startTime": "2025-05-22T19:00:00Z",
+    "endTime": "2025-05-22T19:45:00Z",
+    "room": "Hall D",
+    "description": "Learn NLP basics and text processing techniques."
+  },
+  {
+    "id": "s15",
+    "title": "React Native Workshop",
+    "speaker": "Olga Stern",
+    "track": "Frontend",
+    "startTime": "2025-05-20T08:15:00Z",
+    "endTime": "2025-05-20T09:00:00Z",
+    "room": "Hall A",
+    "description": "Hands-on workshop for building mobile apps with React Native."
+  },
+  {
+    "id": "s16",
+    "title": "Advanced Node.js",
+    "speaker": "Ben Levi",
+    "track": "Backend",
+    "startTime": "2025-05-20T14:15:00Z",
+    "endTime": "2025-05-20T15:00:00Z",
+    "room": "Hall B",
+    "description": "Advanced techniques for Node.js performance and scalability."
+  },
+  {
+    "id": "s17",
+    "title": "Terraform Basics",
+    "speaker": "Dina Cohen",
+    "track": "DevOps",
+    "startTime": "2025-05-21T08:15:00Z",
+    "endTime": "2025-05-21T09:00:00Z",
+    "room": "Hall C",
+    "description": "Introduction to infrastructure as code with Terraform."
+  },
+  {
+    "id": "s18",
+    "title": "AI Ethics",
+    "speaker": "Noa Levi",
+    "track": "AI",
+    "startTime": "2025-05-22T08:00:00Z",
+    "endTime": "2025-05-22T08:45:00Z",
+    "room": "Hall D",
+    "description": "Discussion on ethical considerations in AI development."
+  },
+  {
+    "id": "s19",
+    "title": "Serverless Architecture",
+    "speaker": "Eli Katz",
+    "track": "Backend",
+    "startTime": "2025-05-20T14:45:00Z",
+    "endTime": "2025-05-20T15:30:00Z",
+    "room": "Hall B",
+    "description": "Learn serverless patterns and deployment strategies."
+  },
+  {
+    "id": "s20",
+    "title": "Kubernetes Security",
+    "speaker": "Hana Shapiro",
+    "track": "DevOps",
+    "startTime": "2025-05-21T17:15:00Z",
+    "endTime": "2025-05-21T18:00:00Z",
+    "room": "Hall C",
+    "description": "Secure your Kubernetes clusters with best practices."
+  }
+]

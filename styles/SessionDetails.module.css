@@ -1,0 +1,45 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.field {
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .container {
+        margin: 1rem;
+        padding: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .field {
+        font-size: 0.95rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
+
+}

@@ -1,0 +1,39 @@
+.agendaButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding-left: .5rem;
+    font-size: 1.8rem;
+}
+
+
+.tooltip {
+    position: absolute;
+    left: 110%;
+    background: #333;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.agendaButton:hover .tooltip {
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .agendaButton {
+        font-size: 1.5rem;
+    }
+
+    .tooltip {
+        font-size: 0.75rem;
+    }
+}
