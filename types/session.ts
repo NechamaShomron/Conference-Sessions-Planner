@@ -1,3 +1,10 @@
+export enum Track {
+  Frontend = "Frontend",
+  Backend = "Backend",
+  DevOps = "DevOps",
+  AI = "AI",
+}
+
 export interface Session {
   id: string;
   title: string;

@@ -1,6 +1,6 @@
 import { getSessionById } from "../../../lib/sessions";
 import AgendaButton from "../../../components/agenda/AgendaButton";
-import SessionInfo from "../../../components/shared/SessionInfo";
+import SessionInfo from "../../../components/sessions/SessionInfo";
 import styles from "../../../styles/SessionDetails.module.css";
 
 export default async function SessionDetails({

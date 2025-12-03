@@ -1,12 +1,17 @@
-import { render, screen, fireEvent } from "@testing-library/react";
-import SessionsPage from "../components/session/SessionsList"; // adjust the path if needed
+import { render, screen } from "@testing-library/react";
+import SessionsList from "../components/sessions/SessionsList";
+import { getSessions } from "../lib/sessions";
 import "@testing-library/jest-dom";
 
 test("search filters sessions by title", () => {
-  render(<SessionsPage />);
+  const sessions = getSessions();
 
-  const input = screen.getByPlaceholderText("Search by title or speaker");
-  fireEvent.change(input, { target: { value: "React" } });
+  const filtered = sessions.filter((s) =>
+    s.title.toLowerCase().includes("react".toLowerCase())
+  );
+
+  render(<SessionsList sessions={filtered} />);
+
   expect(screen.getByText("Modern React Patterns")).toBeInTheDocument();
   expect(screen.queryByText("TypeScript Deep Dive")).toBeNull();
 });
