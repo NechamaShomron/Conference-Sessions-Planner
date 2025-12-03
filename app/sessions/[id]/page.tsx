@@ -1,6 +1,6 @@
 import { getSessionById } from "../../../lib/sessions";
-import { formatTimeRange } from "../../../lib/formatTime";
 import AgendaButton from "../../../components/agenda/AgendaButton";
+import SessionInfo from "../../../components/Shared/SessionInfo";
 import styles from "../../../styles/SessionDetails.module.css";
 
 export default async function SessionDetails({
@@ -19,21 +19,9 @@ export default async function SessionDetails({
         <h1 className={styles.title}>{session.title}</h1>
         <AgendaButton sessionId={id} />
       </div>
-      <p className={styles.field}>
-        <strong>Speaker:</strong> {session.speaker}
-      </p>
-      <p className={styles.field}>
-        <strong>Track:</strong> {session.track}
-      </p>
+      <SessionInfo session={session} showTitle={false} />
       <p className={styles.field}>
         <strong>Description:</strong> {session.description}
-      </p>
-      <p className={styles.field}>
-        <strong>Room:</strong> {session.room}
-      </p>
-      <p className={styles.field}>
-        <strong>Time:</strong>{" "}
-        {formatTimeRange(session.startTime, session.endTime)}
       </p>
     </div>
   );

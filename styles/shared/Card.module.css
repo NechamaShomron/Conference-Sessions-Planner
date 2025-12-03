@@ -34,7 +34,6 @@
     justify-content: space-between;
     font-size: 0.85rem;
     color: #777;
-
 }
 
 .warning {
@@ -48,7 +47,6 @@
     padding-left: 0.8rem;
 }
 
-/* Mobile adjustments */
 @media (max-width: 600px) {
     .card {
         padding: 0.8rem;

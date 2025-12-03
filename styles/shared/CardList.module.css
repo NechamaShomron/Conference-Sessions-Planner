@@ -37,17 +37,15 @@
     flex: 1 1 200px;
 }
 
-.sessionList,
-.list {
+.sessionList {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-/* Specific for session cards in list */
 .sessionItem {
     width: 268px;
-    height: 200px;
+    height: 230px;
 }
 
 .cardLink {
@@ -57,7 +55,6 @@
     color: inherit;
 }
 
-/* Empty state for agenda */
 .empty {
     font-size: 1rem;
     color: #777;
@@ -65,7 +62,7 @@
     margin-top: 2rem;
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 600px) {
     .filters {
         flex-direction: column;
@@ -77,8 +74,7 @@
         width: 100%;
     }
 
-    .sessionList,
-    .list {
+    .sessionList {
         justify-content: center;
         grid-template-columns: 1fr;
         gap: 1rem;

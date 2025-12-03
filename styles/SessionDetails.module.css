@@ -13,17 +13,11 @@
 }
 
 .field {
+    font-size: 0.95rem;
+    color: #555;
     margin-bottom: 0.5rem;
 }
 
-.description {
-    margin-top: 1rem;
-    line-height: 1.5;
-}
-
-
-
-/* Mobile adjustments */
 @media (max-width: 600px) {
     .container {
         margin: 1rem;
@@ -35,11 +29,7 @@
     }
 
     .field {
-        font-size: 0.95rem;
-    }
-
-    .description {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
 }

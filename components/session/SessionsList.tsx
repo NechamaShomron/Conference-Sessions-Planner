@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import SessionCard from "../../components/session/SessionCard";
+import SessionInfo from "../Shared/SessionInfo";
 import { getSessions } from "../../lib/sessions";
 import { timeRanges, isInTimeRange } from "../../lib/formatTime";
+import Link from "next/link";
 import styles from "../../styles/shared/CardList.module.css";
+import cardStyles from "../../styles/shared/Card.module.css";
 
 export default function SessionsList() {
   const allSessions = getSessions();
@@ -71,7 +73,14 @@ export default function SessionsList() {
         {filteredSessions.length ? (
           filteredSessions.map((session) => (
             <div key={session.id} className={styles.sessionItem}>
-              <SessionCard session={session} />
+              <Link
+                href={`/sessions/${session.id}`}
+                className={cardStyles.cardLink}
+              >
+                <div className={cardStyles.card}>
+                  <SessionInfo session={session} showTitle={true} />
+                </div>
+              </Link>
             </div>
           ))
         ) : (

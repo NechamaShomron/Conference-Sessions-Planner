@@ -21,9 +21,11 @@ export default function AgendaList() {
   }
 
   return (
-    <div className={styles.list}>
+    <div className={styles.sessionList}>
       {agendaSessions.map((session) => (
-        <AgendaItem key={session.id} session={session} />
+        <div className={styles.sessionItem} key={session.id}>
+          <AgendaItem session={session} />
+        </div>
       ))}
     </div>
   );
